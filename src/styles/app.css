@@ -1,17 +1,8 @@
-/* .background {
-  position: relative;
-}
-.foreground {
-  position: absolute;
-  top: 0;
-} */
 @font-face {
   font-family: "Pixeboy";
-  src: url("../assests/fonts/Pixeboy.ttf") format("truetype"); /* Adjust the path to your font file */
-  /* You can also specify other font formats like woff or woff2 */
+  src: url("../assests/fonts/Pixeboy.ttf") format("truetype");
 }
 @font-face {
   font-family: "Gohu";
-  src: url("../assests/fonts/GohuFont11NerdFont-Regular.ttf") format("truetype"); /* Adjust the path to your font file */
-  /* You can also specify other font formats like woff or woff2 */
+  src: url("../assests/fonts/GohuFont11NerdFont-Regular.ttf") format("truetype");
 }

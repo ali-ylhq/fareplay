@@ -6,20 +6,6 @@ import Buttons from "../components/common/Buttons";
 const Home = () => {
   return (
     <>
-      {/* <HeroSection /> */}
-      {/* <div className="flex flex-col items-center md:items-end px-6 relative z-20 sm:px-24 py-16 sm:py-56 text-white">
-        <h2 className="text-white font-bold font-sans lg:text-6xl sm:text-5xl text-center sm:text-left mb-6 absolute">
-          GAMBLE FOR FREE
-        </h2>
-        <p className=" text-slate-300 font-sans lg:text-1xl sm:text-1xl mb-8 text-center sm:text-left">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elitnibh euismod
-          <br />
-          tincidunt ut laoreet dolore magna aliquam erat volutpat.
-        </p>
-        <button className="text-white bg-yellow-500 p-2 px-4 hover:hover:pr-7 hover:pl-7 hover:opacity-75 duration-300">
-          Get Yours Now
-        </button>
-      </div> */}
       <div className="z-30 absolute top-1/2 md:top-0 -translate-y-1/2 md:-translate-y-0 left-0 md:left-1/2 px-10 md:px-14 lg:px-28 text-white">
         <h2 className="text-white text-3xl font-normal">GAMBLE FOR FREE</h2>
         <h1 className="text-[#4AF5D3] text-5xl font-normal">EARN POINTS</h1>
@@ -53,8 +39,6 @@ const Home = () => {
           />
         </div>
         <div className="flex gap-1">
-          {/* <Buttons title={"LAUNCH APP"} bg={"#4AF5D3"} />
-          <Buttons title={"LEARN MORE"} bg={"#410DFF"} /> */}
           <button className="bg-[#4AF5D350] hover:bg-[#4AF5D375] text-white font-semibold hover:text-white py-2 px-4 border border-[#4AF5D375] hover:border-[#4AF5D3] rounded hover:scale-105 duration-200">
             <p className="text-xs font-thin tracking-widest">LAUNCH APP</p>
           </button>

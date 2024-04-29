@@ -1,8 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-// import Navbar from "./layout/navbar";
 import Home from "./pages/Home";
-import Footer from "./layout/footer";
 import Appbar from "./layout/appbar/Appbar";
 import "./styles/app.css";
 function App() {
@@ -15,13 +13,8 @@ function App() {
         <img
           src="/src/assests/images/bg.png"
           className="w-full md:h-64 h-auto relative animate-bounce-slow"
-          // style={{
-          //   height: "250px",
-          // }}
         />
       </div>
-
-      {/* <Navbar /> */}
 
       <Routes>
         <Route
@@ -33,8 +26,6 @@ function App() {
           }
         />
       </Routes>
-
-      {/* <Footer /> */}
     </div>
   );
 }
