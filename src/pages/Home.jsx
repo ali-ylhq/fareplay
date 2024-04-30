@@ -1,7 +1,5 @@
 import React from "react";
-import HeroSection from "../components/home/Hero";
 import IconButtons from "../components/common/IconButtons";
-import Buttons from "../components/common/Buttons";
 
 const Home = () => {
   return (
@@ -48,7 +46,7 @@ const Home = () => {
         </div>
       </div>
       <img
-        src="/src/assests/images/hero-img.png"
+        src="/images/hero-img.png"
         className="w-screen h-auto md:h-[80vh] absolute bottom-0"
         alt="hero"
       />

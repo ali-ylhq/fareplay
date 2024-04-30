@@ -11,7 +11,7 @@ function App() {
       </div>
       <div className="z-10 w-full">
         <img
-          src="/src/assests/images/bg.png"
+          src="/images/bg.png"
           className="w-full md:h-64 h-auto relative animate-bounce-slow"
         />
       </div>
